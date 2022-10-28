@@ -1,0 +1,43 @@
+.project {
+  padding: 2em;
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow);
+  transition: transform 0.2s linear;
+}
+
+.project:hover {
+  transform: translateY(-7px);
+}
+
+.project__img {
+  height: 250px;
+  width: 380px;
+  border-radius: 6px;
+}
+
+.project__description {
+  margin-top: 1em;
+}
+
+.project__stack {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 1.2em 0;
+}
+
+.project__stack-item {
+  margin: 0.5em;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--clr-fg-alt);
+  color: #69acdd;
+}
+
+.project .link--icon {
+  margin-left: 0.8em;
+  display: flex;
+  gap: 0.6em;
+}
+
